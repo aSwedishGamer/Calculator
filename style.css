@@ -1,0 +1,19 @@
+body {
+    padding-top: 25%;
+    background-color: rgb(30, 30, 30)
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 0.5rem;
+    width: 2rem;
+    margin: 0.5rem;
+}
+
+input {
+    margin: 0.5rem
+}
