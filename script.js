@@ -1,8 +1,20 @@
-//the elements
-let addition = document.getElementById("addition");
-let subtration = document.getElementById("subtration");
-let multiplication = document.getElementById("multiplication");
-let division = document.getElementById("division");
+function getInputX() {
+    return Number(document.getElementById("inputX").value);
+}
+function getInputY() {
+    return Number(document.getElementById("inputY").value);
+}
 
-//Buttons
-addition.addEventListener("onclick")
+function addition() {
+    let answer = getInputX() + getInputY()
+    alert(answer)
+}function subtraction() {
+    let answer = getInputX() - getInputY()
+    alert(answer)
+}function multiplication() {
+    let answer = getInputX() * getInputY()
+    alert(answer)
+}function division() {
+    let answer = getInputX() / getInputY()
+    alert(answer)
+}

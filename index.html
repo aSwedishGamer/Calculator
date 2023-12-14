@@ -8,17 +8,14 @@
 </head>
 <body>
     <div id="input">
-        <input type="text" class="textype x">
-        <input type="text" class="textype y">        
+        <input id="inputX" type="number" class="texttype x">
+        <input id="inputY" type="number" class="texttype y">
     </div>
     <div id="calculous">
-        <button id="addition">+</button>
-        <button id="subtration">-</button>
-        <button id="multiplication">*</button>
-        <button id="division">/</button>
+        <button onclick="addition()" id="addition">+</button>
+        <button onclick="subtraction()" id="subtraction">-</button>
+        <button onclick="multiplication()" id="multiplication">*</button>
+        <button onclick="division()" id="division">/</button>
     </div>
-    <p>
-        <output></output>
-    </p>
 </body>
 </html>
